@@ -18,8 +18,8 @@ const Navbar = () => {
 
       </div>
       <div className="flex items-center space-x-5 ml-auto font-bold">
-      <Link to="/explore" className="text-gray-700 hover:text-gray-900">Go to Explore</Link>
-<Link to="/refer" className="text-gray-700 hover:text-gray-900">Refer and Earn</Link>
+      <Link to="/" className="text-gray-700 hover:text-gray-900">Go to Explore</Link>
+<Link to="/Rewards" className="text-gray-700 hover:text-gray-900">Refer and Earn</Link>
         <IoIosNotifications className='size-8'/>
       </div>
     </nav>
