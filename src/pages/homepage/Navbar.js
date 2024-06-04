@@ -1,7 +1,7 @@
 import React from "react";
 import { IoEllipse } from "react-icons/io5";
 import { IoIosNotifications } from "react-icons/io";
-
+import {Link} from "react-router-dom"
 const Navbar = () => {
   return (
     <nav className="bg-white shadow-lg flex justify-between items-center px-6 py-4 relative">
