@@ -6,6 +6,9 @@ import Earn from "../homepage/icons/Earn.png";
 import View from "../homepage/icons/View rewards (2).png";
 import Announce from "../homepage/icons/Announce.png";
 import Bestreward from "../homepage/icons/Bestrewards (2).png";
+import Boss from "../homepage/icons/Boss.png";
+import Start from "../homepage/icons/Star.png";
+import Debut from "../homepage/icons/Debut.png";
 
 function Rewards() {
   return (
@@ -144,26 +147,78 @@ function Rewards() {
         </div>
       </div>
 
-      <div className="relative bg-white-300 items-center top-60 font-bold pl-40 pt-6 ">
-      <div>
-          <p className="relative left-80 pl-40 top-0">Getting Reward Is Easy</p>
-          </div>
+      <div className="relative bg-white-300 items-center top-60  pl-40 pt-6 ">
+        <div>
+          <p className="relative left-80 pl-20 text-4xl top-0">
+            Getting Reward Is Easy
+          </p>
+        </div>
         <div className="relative ">
-          
-        
-          <p className="relative top-46 pt-60">Refer to Creators</p>
-          <span>
+          <p className="relative top-46 text-3xl pt-40">Refer to Creators</p>
+          <span className="relative top-6">
             On every successful referral you will earn 500 CLAMIO Rewards Coins{" "}
           </span>
-          <span>Every 100 coin = Rs.1</span>
+          <p className="relative top-4">Every 100 coin = Rs.1</p>
+          <div className="relative top-36">
+            <img src={Bestreward} alt="Bestrewards"></img>
+          </div>
         </div>
 
-        <div className="relative top-80">
-          <img src={Bestreward} alt="Bestrewards"></img>
-        </div>
-        <div className="absolute top-48 right-20 flex ">
+        <div className="absolute top-32 right-20 ">
           <img src={Announce} alt="Announce"></img>
+          <p className="relative top-46 text-3xl pt-40">Sell 100 Products</p>
+          <span className="relative top-6">
+            On every successful referral you will earn 500 CLAMIO Rewards Coins{" "}
+          </span>
+          <p className="relative top-4">Every 100 coin = Rs.1</p>
         </div>
+      </div>
+
+      <div className="flex-col relative top-80 bg-white-300 items-center pl-52 pt-60 ">
+        <p className="relative left-96 font-semibold text-3xl">
+          How To Level up And Rewards
+        </p>
+
+        <div className="flex flex-row pt-36 gap-28">
+          <div
+            className="bg-white rounded-lg overflow-hidden h-full md:h-auto"
+            style={{ width: "300px", height: "300px" }}
+          >
+            <img src={Debut} style={{ width: "100%", height: "92%" }} />
+          </div>
+          <div>
+            <div
+              className="bg-white rounded-lg overflow-hidden h-full md:h-auto"
+              style={{ width: "300px", height: "300px" }}
+            >
+              <img src={Start} style={{ width: "100%", height: "100%" }} />
+            </div>
+          </div>
+          <div
+            className="bg-white rounded-lg overflow-hidden h-full md:h-auto"
+            style={{ width: "300px", height: "300px" }}
+          >
+            <img src={Boss} style={{ width: "100%", height: "100%" }} />
+          </div>
+        </div>
+        <div className="flex flex-row">
+          <div>
+          <span className="relative left-14 text-3xl font-bold text-yellow-400">CLAMIO </span>
+          <span className="relative left-14 text-3xl font-bold"> Debut</span>
+          <p className="relative left-14 pt-4 pb-40 ">.1 Sale/1 referal</p>
+        </div>
+        <div className="relative left-40">
+          <span className="relative left-14 text-3xl font-bold text-yellow-400">CLAMIO </span>
+          <span className="relative left-14 text-3xl font-bold"> Debut</span>
+          <p className="relative left-14 pt-4 ">.100 Sale/ 25 Referrals</p>
+          <p className="relative left-14 pt-4 pb-40 ">Redeem your CLAMIO Coins</p>
+          </div>
+        <div className="relative left-96">
+          <span className="relative left-14 text-3xl font-bold text-yellow-400">CLAMIO </span>
+          <span className="relative left-14 text-3xl font-bold"> Debut</span></div>
+          <p className="relative left-52 pt-16    ">. 5000 Sales</p>
+          <p className="relative left-32 pt-24  ">. Redeem your CLAMIO Coins  .4.5% Discount on Transactional Charges</p>
+          </div>
       </div>
     </div>
   );

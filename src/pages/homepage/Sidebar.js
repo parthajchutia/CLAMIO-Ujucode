@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Navigation = () => {
   return (
-   <ul className="h-screen-full text-white pt-10 px-4 left-8 relative bottom-0" style={{ borderRight: "1px solid black" }}>
+   <ul className="h-screen-full text-white pt-8 px-4 left-8 relative bottom-0" style={{ borderRight: "1px solid black" }}>
 
       <li className="mb-4">
         <Link to="/" className="flex items-center font-bold px-10 py-2 hover:bg-gray-800 text-black">

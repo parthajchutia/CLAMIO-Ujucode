@@ -1,9 +1,10 @@
 import React from "react";
-import Navbar from "./homepage/Navbar";
-import Sidebar from "./homepage/Sidebar";
+import Navbar from "../homepage/Navbar";
+import Sidebar from "../homepage/Sidebar";
 import { RiRectangleFill } from "react-icons/ri";
 import { RiEdit2Line } from "react-icons/ri";
 import { FaStar } from "react-icons/fa";
+import { Link } from "react-router-dom"
 
 function Product() {
   return (
@@ -27,7 +28,7 @@ function Product() {
                 </div>
               </div>
 
-              <p className="font-bold text-lg px-4 py-2">Product A</p>
+              <Link to="/Productselect" className="font-bold text-lg px-4 py-2">Product A</Link>
               <div className="flex items-center px-4 py-2">
                 <FaStar />
                 <FaStar />
