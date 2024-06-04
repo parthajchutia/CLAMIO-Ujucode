@@ -184,21 +184,21 @@ function Rewards() {
             className="bg-white rounded-lg overflow-hidden h-full md:h-auto"
             style={{ width: "300px", height: "300px" }}
           >
-            <img src={Debut} style={{ width: "100%", height: "92%" }} />
+            <img src={Debut} alt="Debut" style={{ width: "100%", height: "92%" }} />
           </div>
           <div>
             <div
               className="bg-white rounded-lg overflow-hidden h-full md:h-auto"
               style={{ width: "300px", height: "300px" }}
             >
-              <img src={Start} style={{ width: "100%", height: "100%" }} />
+              <img src={Start} alt="Start" style={{ width: "100%", height: "100%" }} />
             </div>
           </div>
           <div
             className="bg-white rounded-lg overflow-hidden h-full md:h-auto"
             style={{ width: "300px", height: "300px" }}
           >
-            <img src={Boss} style={{ width: "100%", height: "100%" }} />
+            <img src={Boss} alt="Boss" style={{ width: "100%", height: "100%" }} />
           </div>
         </div>
         <div className="flex flex-row">
