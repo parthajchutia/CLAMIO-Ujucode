@@ -5,6 +5,7 @@ import { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
 import Payout from './pages/Payout';
 import Rewards from './pages/Rewards/Rewards';
 import Rewardselect from './pages/product/Productselect'
+ 
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <Route path="/Payout" element={<Payout />} />
       <Route path="/Rewards" element={<Rewards/>}/>
       <Route path='/Productselect' element={<Rewardselect/>}  />
+      <Route path='/Productselect' element={<Rewardselect/>}  />
+
     </Routes>
   </Router>
   );

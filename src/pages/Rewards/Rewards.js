@@ -184,41 +184,64 @@ function Rewards() {
             className="bg-white rounded-lg overflow-hidden h-full md:h-auto"
             style={{ width: "300px", height: "300px" }}
           >
-            <img src={Debut} style={{ width: "100%", height: "92%" }} />
+            <img
+              src={Debut}
+              alt="Debut"
+              style={{ width: "100%", height: "92%" }}
+            />
           </div>
           <div>
             <div
               className="bg-white rounded-lg overflow-hidden h-full md:h-auto"
               style={{ width: "300px", height: "300px" }}
             >
-              <img src={Start} style={{ width: "100%", height: "100%" }} />
+              <img
+                src={Start}
+                alt="Start"
+                style={{ width: "100%", height: "100%" }}
+              />
             </div>
           </div>
           <div
             className="bg-white rounded-lg overflow-hidden h-full md:h-auto"
             style={{ width: "300px", height: "300px" }}
           >
-            <img src={Boss} style={{ width: "100%", height: "100%" }} />
+            <img
+              src={Boss}
+              alt="Boss"
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
         </div>
         <div className="flex flex-row">
           <div>
-          <span className="relative left-14 text-3xl font-bold text-yellow-400">CLAMIO </span>
-          <span className="relative left-14 text-3xl font-bold"> Debut</span>
-          <p className="relative left-14 pt-4 pb-40 ">.1 Sale/1 referal</p>
-        </div>
-        <div className="relative left-40">
-          <span className="relative left-14 text-3xl font-bold text-yellow-400">CLAMIO </span>
-          <span className="relative left-14 text-3xl font-bold"> Debut</span>
-          <p className="relative left-14 pt-4 ">.100 Sale/ 25 Referrals</p>
-          <p className="relative left-14 pt-4 pb-40 ">Redeem your CLAMIO Coins</p>
+            <span className="relative left-14 text-3xl font-bold text-yellow-400">
+              CLAMIO{" "}
+            </span>
+            <span className="relative left-14 text-3xl font-bold"> Debut</span>
+            <p className="relative left-14 pt-4 pb-40 ">.1 Sale/1 referal</p>
           </div>
-        <div className="relative left-96">
-          <span className="relative left-14 text-3xl font-bold text-yellow-400">CLAMIO </span>
-          <span className="relative left-14 text-3xl font-bold"> Debut</span></div>
+          <div className="relative left-40">
+            <span className="relative left-14 text-3xl font-bold text-yellow-400">
+              CLAMIO{" "}
+            </span>
+            <span className="relative left-14 text-3xl font-bold"> Debut</span>
+            <p className="relative left-14 pt-4 ">.100 Sale/ 25 Referrals</p>
+            <p className="relative left-14 pt-4 pb-40 ">
+              Redeem your CLAMIO Coins
+            </p>
+          </div>
+          <div className="relative left-96">
+            <span className="relative left-14 text-3xl font-bold text-yellow-400">
+              CLAMIO{" "}
+            </span>
+            <span className="relative left-14 text-3xl font-bold"> Debut</span>
+          </div>
           <p className="relative left-52 pt-16    ">. 5000 Sales</p>
-          <p className="relative left-32 pt-24  ">. Redeem your CLAMIO Coins  .4.5% Discount on Transactional Charges</p>
-          </div>
+          <p className="relative left-32 pt-24  ">
+            . Redeem your CLAMIO Coins .4.5% Discount on Transactional Charges
+          </p>
+        </div>
       </div>
     </div>
   );
