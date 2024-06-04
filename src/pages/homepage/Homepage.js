@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar"; 
 import Sidebar from "./Sidebar"; 
 import { FaPlus } from "react-icons/fa";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Analytic from "./icons/Analytical chart.png"; 
 
 function Homepage() {
